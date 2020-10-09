@@ -1,0 +1,10 @@
+[Unit]
+Description=the foo service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/foo.exe
+
+[Install]
+WantedBy=multi-user.target
+
