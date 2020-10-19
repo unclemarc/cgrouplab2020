@@ -1,5 +1,5 @@
 [Unit]
-Description=the foo service
+Description=the bar service
 After=network.target
 
 [Service]
