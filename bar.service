@@ -1,0 +1,10 @@
+[Unit]
+Description=the foo service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/stress --cpu 4
+
+[Install]
+WantedBy=multi-user.target
+
