@@ -5,6 +5,9 @@ chmod 755 /usr/local/bin/foo.exe
 cp foo.service /etc/systemd/system/foo.service
 chown root:root /etc/systemd/system/foo.service
 chmod 644 /etc/systemd/system/foo.service
+cp bar.service /etc/systemd/system/bar.service
+chown root:root /etc/systemd/system/bar.service
+chmod 644 /etc/systemd/system/bar.service
 
 # make some users
 useradd -u 6000 elsa
